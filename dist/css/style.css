@@ -1,6 +1,7 @@
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  box-sizing: border-box; }
 
 body {
   font-family: 'Roboto', sans-serif; }
@@ -159,7 +160,8 @@ body {
         background-color: #E9B02A;
         transition-duration: 0.5s; }
     .banner .slide a.button-right {
-      left: 1186px; }
+      left: auto;
+      right: -15px; }
 
 .featured-products {
   width: 100%;
@@ -216,7 +218,8 @@ body {
       margin-top: 12px;
       color: #444444; }
   .featured-products-main span.button-2 {
-    left: 1176px; }
+    left: auto;
+    right: -15px; }
   .featured-products-main div {
     width: 18%;
     background-color: white;
@@ -257,8 +260,10 @@ body {
   justify-content: space-between;
   margin: auto; }
   .season .season-1, .season .season-2 {
-    width: 50%;
+    width: 49%;
     margin-top: 30px; }
+    .season .season-1 img, .season .season-2 img {
+      width: 100%; }
   .season .season-2 {
     text-align: right; }
   .season .season-3 {
