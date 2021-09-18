@@ -10,7 +10,8 @@ body {
   display: flex;
   width: 95%;
   margin: auto;
-  margin-top: 10px; }
+  margin-top: 10px;
+  max-width: 1168px; }
   .top-header a {
     text-decoration: none;
     font-size: 14px;
@@ -45,19 +46,24 @@ body {
       color: #444444;
       width: 30%; }
 
+.backround-menu-header {
+  background-color: black; }
+
 .menu-header {
   display: flex;
   width: 100%;
   height: 66px;
+  margin: auto;
   background: black;
-  margin-top: 10px; }
+  margin-top: 10px;
+  max-width: 1230px; }
   .menu-header .logo {
     width: 15%; }
     .menu-header .logo img {
       width: 80%;
       height: 70%;
       margin-top: 10px;
-      margin-left: 30px; }
+      margin-left: 28px; }
   .menu-header .search {
     display: flex;
     width: 75%; }
@@ -129,7 +135,8 @@ body {
   width: 95%;
   margin: auto;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  max-width: 1168px; }
   .bottom-header a {
     display: block;
     margin-top: 25px;
@@ -149,7 +156,8 @@ body {
 .banner {
   width: 95%;
   margin: auto;
-  margin-top: 25px; }
+  margin-top: 25px;
+  max-width: 1168px; }
   .banner .banner-thumb img {
     width: 100%; }
   .banner .banner-main img, .banner .slide img {
@@ -213,7 +221,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  max-width: 1168px; }
   .featured-products-main span.button-1, .featured-products-main span.button-2 {
     width: 48px;
     height: 48px;
@@ -277,7 +286,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: auto; }
+  margin: auto;
+  max-width: 1168px; }
   .season .season-1, .season .season-2 {
     width: 49%;
     margin-top: 30px; }
@@ -301,7 +311,8 @@ body {
     margin: auto;
     width: 95%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    max-width: 1168px; }
     .product-foryou .header-product-foryou .foryou {
       font-size: 35px;
       font-weight: bold; }
@@ -319,7 +330,8 @@ body {
   margin: auto;
   margin-top: 30px;
   text-align: center;
-  width: 95%; }
+  width: 95%;
+  max-width: 1168px; }
   .ads img {
     width: 100%; }
 
@@ -334,7 +346,8 @@ body {
     line-height: 45px;
     color: white;
     border-radius: 10px 10px 0px 0px;
-    background-color: black; }
+    background-color: black;
+    max-width: 1168px; }
     .product-day .header-product-day .left {
       text-transform: uppercase;
       font-weight: bold;
@@ -379,7 +392,8 @@ body {
     width: 95%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    max-height: 1168px; }
     .footer .main-footer div {
       margin-top: 50px;
       width: 18%; }
@@ -419,7 +433,8 @@ body {
     margin: auto;
     padding-top: 40px;
     width: 95%;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    max-width: 1168px; }
     .footer .bottom-footer p {
       font-size: 12px;
       width: 45%;
@@ -435,7 +450,8 @@ body {
   background-color: #f5f5f5; }
   .detail .menu-detail {
     width: 95%;
-    margin: auto; }
+    margin: auto;
+    max-height: 1168px; }
     .detail .menu-detail a {
       display: inline-block;
       text-decoration: none;
@@ -453,7 +469,8 @@ body {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 44px;
-    display: flex; }
+    display: flex;
+    max-width: 1168px; }
     .detail .main-detail .other-pictures {
       width: 11%; }
       .detail .main-detail .other-pictures img {
@@ -635,7 +652,8 @@ body {
     background-color: white;
     margin: auto;
     margin-top: 30px;
-    display: flex; }
+    display: flex;
+    max-width: 1168px; }
     .detail .detail-product h4 {
       margin-bottom: 20px;
       text-transform: uppercase;
@@ -707,7 +725,8 @@ body {
     width: 95%;
     margin: auto;
     display: flex;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    max-width: 1168px; }
     .other-products .header-other-products h3, .similar-product .header-other-products h3 {
       width: 70%;
       text-transform: uppercase;
@@ -729,7 +748,8 @@ body {
     justify-content: space-between;
     width: 95%;
     margin: auto;
-    padding-bottom: 35px; }
+    padding-bottom: 35px;
+    max-width: 1168px; }
     .other-products .main-other-products div, .similar-product .main-other-products div {
       width: 19%;
       background-color: white;
