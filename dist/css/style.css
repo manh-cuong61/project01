@@ -451,7 +451,8 @@ body {
   .detail .menu-detail {
     width: 95%;
     margin: auto;
-    max-height: 1168px; }
+    max-height: 1168px;
+    margin-left: 45px; }
     .detail .menu-detail a {
       display: inline-block;
       text-decoration: none;
