@@ -6,11 +6,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
-  min-width: 1230px; }
+  min-width: 1150px; }
 
 .top-header {
   display: flex;
-  width: 100%;
+  width: 98%;
   margin: auto;
   margin-top: 10px;
   max-width: 1230px; }
@@ -54,7 +54,7 @@ body {
 
 .menu-header {
   display: flex;
-  width: 100%;
+  width: 98%;
   height: 66px;
   margin: auto;
   background: black;
@@ -134,7 +134,7 @@ body {
       top: 1px; }
 
 .bottom-header {
-  width: 100%;
+  width: 98%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -156,7 +156,7 @@ body {
         border-bottom: 3px solid; }
 
 .banner {
-  width: 100%;
+  width: 98%;
   margin: auto;
   margin-top: 25px;
   max-width: 1230px; }
@@ -222,7 +222,7 @@ body {
 
 .featured-products-main {
   margin: auto;
-  width: 100%;
+  width: 98%;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -287,7 +287,7 @@ body {
       margin-bottom: 15px; }
 
 .season {
-  width: 100%;
+  width: 98%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -314,7 +314,7 @@ body {
   justify-content: center; }
   .product-foryou .header-product-foryou {
     margin: auto;
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     max-width: 1230px; }
@@ -335,7 +335,7 @@ body {
   margin: auto;
   margin-top: 30px;
   text-align: center;
-  width: 100%;
+  width: 98%;
   max-width: 1230px; }
   .ads img {
     width: 100%; }
@@ -346,7 +346,7 @@ body {
     border: 1px solid black;
     margin: auto;
     margin-top: 10px;
-    width: 100%;
+    width: 98%;
     display: flex;
     line-height: 45px;
     color: white;
@@ -394,7 +394,7 @@ body {
   margin-top: 50px; }
   .footer .main-footer {
     margin: auto;
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -437,9 +437,9 @@ body {
   .footer .bottom-footer {
     margin: auto;
     padding-top: 40px;
-    width: 95%;
+    width: 98%;
     padding-bottom: 40px;
-    max-width: 1168px; }
+    max-width: 1230px; }
     .footer .bottom-footer p {
       font-size: 12px;
       width: 45%;
@@ -454,7 +454,7 @@ body {
   margin-top: 25px;
   background-color: #f5f5f5; }
   .detail .menu-detail {
-    width: 100%;
+    width: 98%;
     margin: auto;
     max-width: 1230px; }
     .detail .menu-detail a {
@@ -469,7 +469,7 @@ body {
       color: #9a9a9a;
       margin-left: 5px; }
   .detail .main-detail {
-    width: 100%;
+    width: 98%;
     margin: auto;
     background-color: white;
     padding-top: 10px;
@@ -653,7 +653,7 @@ body {
             background-color: #E9B02A;
             transition-duration: 0.2s; }
   .detail .detail-product {
-    width: 100%;
+    width: 98%;
     background-color: white;
     margin: auto;
     margin-top: 30px;
@@ -727,7 +727,7 @@ body {
   background-color: #f5f5f5;
   padding-top: 20px; }
   .other-products .header-other-products, .similar-product .header-other-products {
-    width: 100%;
+    width: 98%;
     margin: auto;
     display: flex;
     margin-bottom: 20px;
@@ -751,7 +751,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 98%;
     margin: auto;
     padding-bottom: 35px;
     max-width: 1230px; }
