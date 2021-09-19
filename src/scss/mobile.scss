@@ -86,9 +86,12 @@
             .slide  {
                 a.button-left {
                     top: 50%;
+                    left: -2px;
                 }
                 a.button-right {
                     @extend a.button-left;
+                    left: auto;
+                    right: -2px;
                 }
             }
         }
@@ -267,6 +270,27 @@
                 }
             }
         }
-    }
-    
+        .banner {
+            margin-top: 5px;
+            .slide  {
+                a {
+                    width: 25px;
+                    height: 25px;
+                    span {
+                        i {
+                            margin-top: 5px;
+                        }
+                    }
+                }
+                a.button-left {
+                    top: 40%;
+                    left: -2px;
+                }
+                a.button-right {
+                    left: auto;
+                    right: -2px;
+                }    
+            }
+        }
+    }    
 }

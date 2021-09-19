@@ -54,7 +54,11 @@
   body .banner {
     margin-top: 5px; }
     body .banner .slide a.button-left, body .banner .slide a.button-right {
-      top: 50%; }
+      top: 50%;
+      left: -2px; }
+    body .banner .slide a.button-right {
+      left: auto;
+      right: -2px; }
   body .featured-products {
     padding-bottom: 0px; }
     body .featured-products .featured-products-header h1 {
@@ -146,4 +150,17 @@
   body .bottom-header a {
     font-size: 12px; }
   body .product-day .header-product-day .left {
-    width: 70%; } }
+    width: 70%; }
+  body .banner {
+    margin-top: 5px; }
+    body .banner .slide a {
+      width: 25px;
+      height: 25px; }
+      body .banner .slide a span i {
+        margin-top: 5px; }
+    body .banner .slide a.button-left, body .banner .slide a.button-right {
+      top: 40%;
+      left: -2px; }
+    body .banner .slide a.button-right {
+      left: auto;
+      right: -2px; } }
