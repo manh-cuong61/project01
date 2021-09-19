@@ -73,6 +73,10 @@
       width: 49%; }
     body .featured-products-main span.button-1, body .featured-products-main span.button-2 {
       display: none; }
+  body .season .season-1, body .season .season-2 {
+    margin-top: 0px; }
+  body .season .season-3 {
+    margin-top: 5px; }
   body .product-foryou {
     margin-top: 0px; }
     body .product-foryou .header-product-foryou .foryou {
