@@ -5,8 +5,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  width: 100%;
-  min-width: 1150px; }
+  width: 100%; }
 
 .top-header {
   display: flex;
@@ -323,6 +322,8 @@ body {
       font-weight: bold; }
     .product-foryou .header-product-foryou .discount {
       margin-top: 10px; }
+      .product-foryou .header-product-foryou .discount img {
+        width: 100%; }
     .product-foryou .header-product-foryou .showall a {
       color: #444444;
       display: block;

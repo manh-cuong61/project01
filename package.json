@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass src/scss/style.scss dist/css/style.comp.css",
+    "compile:sass_mobile": "node-sass src/scss/mobile.scss dist/css/mobile.comp.css",
     "concat:css": "concat -o dist/css/style.concat.css dist/css/style.comp.css",
+    "concat:css_mobile": "concat -o dist/css/mobile.concat.css dist/css/mobile.comp.css",
     "compress:css": "node-sass dist/css/style.concat.css dist/css/style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass concat:css compress:css",
+    "compress:css_mobile": "node-sass dist/css/mobile.concat.css dist/css/mobile.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css compress:css compile:sass_mobile concat:css_mobile compress:css_mobile",
  
  
     "watch:sass": "node-sass src/scss/style.scss dist/css/style.css -w",
+    "watch:sass_mobile": "node-sass src/scss/mobile.scss dist/css/mobile.css -w",
     "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass"
+    "start": "npm-run-all --parallel devserver watch:sass watch:sass_mobile"
   },
   "author": "",
   "license": "ISC",

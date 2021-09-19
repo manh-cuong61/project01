@@ -25,7 +25,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
     width: 100%;
-    min-width: 1150px;
 }
 .top-header {
 	display: flex;
@@ -400,6 +399,9 @@ body {
         }
         .discount {
             margin-top: 10px;
+            img {
+                width: 100%;
+            }
         }
         .showall{
             a {
