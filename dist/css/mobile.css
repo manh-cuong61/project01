@@ -93,23 +93,27 @@
     width: 85%; }
     body .product-day .header-product-day .left span {
       margin-left: 5px; }
+  body .product-day .shop-all-deals {
+    margin-bottom: 10px; }
   body .footer {
-    margin-top: 10px; }
+    margin-top: 0px; }
     body .footer .main-footer {
       flex-wrap: wrap; }
       body .footer .main-footer .support p {
-        margin-bottom: 5px; }
+        margin-bottom: 5px;
+        font-size: 17px; }
       body .footer .main-footer div {
         width: 100%;
         margin-top: 15px;
         text-align: center; }
         body .footer .main-footer div h3 {
-          font-size: 15px;
+          font-size: 21px;
           text-align: center;
           margin-bottom: 5px; }
         body .footer .main-footer div a {
           text-align: center;
-          margin-bottom: 5px; }
+          margin-bottom: 5px;
+          font-size: 16px; }
       body .footer .main-footer div.payment {
         width: 100%; }
       body .footer .main-footer .network .social-network {
@@ -129,11 +133,111 @@
       padding-top: 5px;
       padding-bottom: 10px; }
       body .footer .bottom-footer p {
-        width: 100%; } }
+        width: 100%; }
+  body .detail .menu-detail a {
+    line-height: 30px;
+    font-size: 17.5px; }
+  body .detail .main-detail {
+    display: block;
+    padding-bottom: 12px; }
+    body .detail .main-detail .other-pictures {
+      display: none; }
+    body .detail .main-detail .main-picture {
+      width: 97%;
+      margin-top: 0px;
+      margin: auto; }
+      body .detail .main-detail .main-picture a.button-1 {
+        left: 15px;
+        top: 40%; }
+      body .detail .main-detail .main-picture a.button-2 {
+        top: 40%;
+        right: 15px; }
+    body .detail .main-detail .infomation-product {
+      width: 96%;
+      margin-left: 0px;
+      margin: auto;
+      margin-top: 10px; }
+      body .detail .main-detail .infomation-product .name-product .detail-name {
+        height: unset; }
+        body .detail .main-detail .infomation-product .name-product .detail-name h3 {
+          font-size: 23px;
+          font-weight: unset;
+          margin-top: 15px; }
+        body .detail .main-detail .infomation-product .name-product .detail-name a {
+          margin-top: 24px; }
+          body .detail .main-detail .infomation-product .name-product .detail-name a span {
+            display: none; }
+          body .detail .main-detail .infomation-product .name-product .detail-name a i {
+            font-size: 30px; }
+      body .detail .main-detail .infomation-product .rating a.count .count-rating {
+        margin-left: 29%; }
+      body .detail .main-detail .infomation-product .rating a.count span {
+        font-size: 17.5px; }
+      body .detail .main-detail .infomation-product .rating i {
+        font-size: 23px; }
+      body .detail .main-detail .infomation-product .selection .color span {
+        margin-top: 5px; }
+      body .detail .main-detail .infomation-product .selection .size {
+        margin-top: 5px; }
+        body .detail .main-detail .infomation-product .selection .size span {
+          margin-top: 5px; }
+      body .detail .main-detail .infomation-product .selection .size-guide {
+        margin-top: 5px; }
+      body .detail .main-detail .infomation-product .selection .count span {
+        margin-top: 5px; }
+      body .detail .main-detail .infomation-product .cart a {
+        line-height: 50px;
+        margin-right: 68px; }
+      body .detail .main-detail .infomation-product .cart i {
+        width: 50px;
+        height: 50px;
+        padding-top: 8px; }
+  body .detail .detail-product {
+    margin-top: 6px;
+    width: 98%;
+    display: block; }
+    body .detail .detail-product .detail-product-right {
+      display: none; }
+    body .detail .detail-product .detail-product-left {
+      width: 95%;
+      padding-top: 10px;
+      margin: auto; }
+      body .detail .detail-product .detail-product-left p {
+        font-size: 13.5px;
+        margin-left: 0px;
+        line-height: 18px; }
+      body .detail .detail-product .detail-product-left h4 {
+        margin-bottom: 10px;
+        font-size: 16px;
+        margin-left: 0px; }
+  body .other-products {
+    padding-top: 10px;
+    margin-top: 10px; }
+    body .other-products .header-other-products {
+      line-height: 30px;
+      margin-bottom: 10px; }
+      body .other-products .header-other-products h3 {
+        font-size: 16px; }
+      body .other-products .header-other-products a span {
+        margin-left: 18%;
+        font-size: 16px;
+        margin-left: 50%; }
+    body .other-products .main-other-products {
+      padding-bottom: 0px; }
+      body .other-products .main-other-products div {
+        width: 49%; }
+  body .similar-product {
+    display: none; } }
 
 @media only screen and (max-width: 600px) {
   body .footer .main-footer .network .social-network .facebook {
     margin-left: 105px; }
+  body .footer .main-footer div a {
+    font-size: 13px; }
+  body .footer .main-footer div h3 {
+    font-size: 15px; }
+  body .footer .main-footer .support p {
+    font-size: 13px; }
   body .top-header {
     width: 100%; }
     body .top-header .top-header-left {
@@ -167,4 +271,37 @@
       left: -2px; }
     body .banner .slide a.button-right {
       left: auto;
-      right: -2px; } }
+      right: -2px; }
+  body .detail .main-detail .main-picture a.button-1 {
+    left: -2px; }
+  body .detail .main-detail .main-picture a.button-2 {
+    right: -2px; }
+  body .detail .main-detail .infomation-product .name-product .detail-name h3 {
+    font-size: 16px;
+    margin-top: unset; }
+  body .detail .main-detail .infomation-product .name-product a {
+    margin-top: 5px; }
+    body .detail .main-detail .infomation-product .name-product a i {
+      font-size: 18px; }
+  body .detail .main-detail .infomation-product .rating i {
+    font-size: unset; }
+  body .detail .main-detail .infomation-product .rating a.count span {
+    font-size: 13.5px; }
+  body .detail .main-detail .infomation-product .rating a.count .count-rating {
+    margin-bottom: 9%; }
+  body .detail .main-detail .infomation-product .cart a {
+    margin-right: 20px; }
+  body .detail .menu-detail a {
+    font-size: 12.5px; }
+  body .detail .detail-product .detail-product-left h4 {
+    font-size: 14px; }
+  body .detail .detail-product .detail-product-left p {
+    font-size: 12.5px;
+    line-height: 16px; }
+  body .other-products .header-other-products {
+    line-height: unset; }
+    body .other-products .header-other-products h3 {
+      font-size: 13px; }
+    body .other-products .header-other-products a span {
+      font-size: 13px;
+      margin-left: 18px; } }
